@@ -6,15 +6,9 @@
 ## 插件使用
 你可以使用 ` npm i yuukyou-virtualscroll ` 命令进行进行插件安装
 ### 插件提供的接口
-'''
-    //所有获取数据列表
-    allDataList: { default: () => [], type: Array },
-    //上下环缓存区数目
-    bufferSize: { default: () => 5, type: Number },
-    //单行显示高度
-    blockHeight: { default: () => 100, type: Number },
-    //是否正在请求批量数据状态
-    onRequesting: { default: () => true, type: Boolean },
-    //数据加载显示的区域
-    msg: { default: () => "小二正在努力，请耐心等待...", type: String }
-'''
+1. 所有获取数据列表: ` allDataList: { default: () => [], type: Array } `
+2. 上下环缓存区数目: ` bufferSize: { default: () => 5, type: Number } `
+3. 单行显示高度: ` blockHeight: { default: () => 100, type: Number } `
+4. 是否正在请求批量数据状态: ` onRequesting: { default: () => true, type: Boolean } `
+5. 数据加载显示的区域: ` msg: { default: () => "小二正在努力，请耐心等待...", type: String } `
+
