@@ -1,0 +1,23 @@
+{
+  "name": "yuukyou-virtualscroll",
+  "version": "1.0.0",
+  "description": "前端 虚拟插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuukyou-chan/Yuukyou-virtualScroll.git"
+  },
+  "keywords": [
+    "前端",
+    "虚拟滚动列表"
+  ],
+  "author": "Yuukyou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuukyou-chan/Yuukyou-virtualScroll/issues"
+  },
+  "homepage": "https://github.com/yuukyou-chan/Yuukyou-virtualScroll#readme"
+}
